@@ -25,14 +25,25 @@ void insert(int *a,int n,int i,int v)
 		a[j+1]=a[j];
 	a[i]=v;
 }
+void input(int arr[])
+{
+	int i;
+	for(i=0;i<=19;i++)
+        {
+                scanf("%d",&arr[i]);
+        }
+}
+void output(int arr[],int x)
+{
+	int i;
+	for(i=0;i<=x;i++)
+                printf("%4d",arr[i]);
+}
 int main()
 {
 	int a[200];
 	int i,n,num,c=20;
-	for(i=0;i<=19;i++)
-	{
-		scanf("%d",&a[i]);
-	}
+	input(&a);
 	printf("Enter the number of numbers to insert:");
 	scanf("%d", &n);
 	printf("Please input numbers:");
@@ -42,7 +53,6 @@ int main()
 		insert(&a,c+=1,i,num);
 	}
 	Sort(&a,20+n);
-	for(i=0;i<=19+n;i++)
-		printf("%4d",a[i]);
+	output(&a,19+n);
 	return 0;
 }
