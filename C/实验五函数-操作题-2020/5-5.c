@@ -18,7 +18,7 @@ int Sort(int arr[],int len)
 		swap(&arr[i],&arr[min]);
 	}
 }
-void insert(int *a,int n,int i,int v)
+void insert(int a[],int n,int i,int v)
 {
 	int j;
 	for(j=n-1;j>=i;j--)
