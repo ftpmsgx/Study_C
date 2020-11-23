@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>查看详情</title>
+<link rel="stylesheet" type="text/css" href="/mooc2/css/pop.css"/>
+<link rel="stylesheet" type="text/css" href="/mooc2/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/mooc2/css/marking_icon.css" />
+<link rel="stylesheet" type="text/css" href="/mooc2/css/viewStudent.css?v=2020-1103-1012" />
+<link rel="stylesheet" type="text/css" href="/mooc2/css/taskStudent_pop.css" />
+<script type="text/javascript" src="/js/common/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common/jquery-migrate.min.js"></script><script type="text/javascript" src="/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="/mooc2/js/pop.js"></script>
+<script type="text/javascript" src="/mooc2/js/poplayout.js"></script>
+<script type="text/javascript" src="/mooc2/js/viewStudent.js"></script>
+<script src="/space/work/js/attach-mark.js?v=2020-0826-1900"></script>
+</head>
+<style>
+.questionLi img{max-width:100%;}
+</style>
+<body>
+<script src="/space/work/js/preview-attach.js?v=2020-1016-1530"></script><link href="/css/work/viewer.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/space/work/js/viewer-jquery.min.js"></script>
+<script type="text/javascript">
+try{
+	$(function(){
+		var imgList = $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img)");
+		for (var i = 0, len = imgList.size(); i < len; i++) {
+			 var src = imgList.eq(i).attr("src");
+			 if(src){
+    			var index = src.indexOf("375_1024");
+    			if (index != -1) {
+    				src = src.replace("375_1024", "origin");
+    			}
+                 var index2 = src.indexOf("750_1024");
+                 if (index2 != -1) {
+                     src = src.replace("750_1024", "origin");
+                 }
+    			imgList.eq(i).attr("data-original", src);
+		   }
+		}
+        $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img)").viewer({
+			url : 'data-original',
+		});
+	})
+  }catch(error){}
+</script>
+
+<input type="hidden" id="courseId" value="99139196" />
+<input type="hidden" id="classId" value="32693492" />
+<input type="hidden" id="cpi" value="151958437"/>
+<input type="hidden" id="workId" value="11312524" />
+<input type="hidden" id="answerId" value="50015267"/>
+<input type="hidden" id="enc" value="87f2d486d212d90ad2af34ec9bf307de"/>
+<input type="hidden" id="creatorId" value="151958437"/>
+
+<div class="subNav">作业详情</div>
+<div class="het40"></div>
+<div class="fanyaMarking TiMu" id="fanyaMarking">
+	<div class="fanyaMarking_left whiteBg">
+		<div class="borderBom padBom20 detailsHead">
+			<h2 class="mark_title">实验  函数-(改错填空）-提交后自动批分-2020</h2>
+			<div class="infoHead">
+				<span>题量: 8</span>
+				<span>满分: 100</span>
+				<p class="rightBord">作答时间:<em>11-20 10:11</em>至<em>12-04 23:55</em></p>
+								<a href="javascript:;" class="redo" onclick="redoWork();"><i></i>重做</a>
+							</div>
+							<span class="resultNum"><i>100</i>分</span>
+					</div>
+				
+				
+							<div class="mark_table padTop60">
+													
+																						
+					
+																					
+					<div class="mark_item">
+						                            <h2 class="type_tit">一. 填空题（共8题，100分）</h2>
+																			
+																					<div class="marBom60 questionLi" id="question400867628" data="400867628">
+								<h3 class="mark_name colorDeep">1. <span class="colorShallow">(填空题)</span><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"></span></p>
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></p>
+<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:&nbsp;0"><span style="color: rgb(51, 51, 51); font-size: 14px;">注意:</span><br></p>
+<p><span style="font-size:14px;color:#333333">*</span><span style="font-size:14px;color:#333333">下载附件中blank.c文件,保存在考生文件夹中。</span></p>
+<p><span style="font-size:14px;color:#333333">*</span><span style="font-size:14px;color:#333333">请在程序的下划线处填入正确的内容并把下划线删除,使程序得出正确的结果。注意:不得增行或删行,也不得更改程序的结构!最终将程序与其它考题一起打包上交。</span></p>
+<p><span style="font-size:14px;font-family:宋体;color:#333333">*</span><span style="font-size:14px;font-family:宋体;color:#333333">请将</span><span style="font-size:14px;font-family:宋体;color:#C00000">答案写在答案栏中</span><span style="font-size:14px;font-family:宋体;color:#333333">(</span><span style="font-size:14px;font-family:宋体;color:#333333">答案栏中只写答案,不要附加其它语句),</span><span style="font-size:14px;font-family:宋体;color:#C00000">还必须写在程序中</span><span style="font-size:14px;font-family:宋体;color:#333333">,使程序能正确运行。</span></p>
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><strong><span style=";font-family:宋体">**********************************************************************</span></strong><br></p>
+<p><strong><span style=";font-family:宋体">函数fun的功能是:将形参数组a中的前半部分元素中的值和后半部分元素中的值对换。形参n中存放数组中数据的个数,若n为奇数,则中间的元素不动。</span></strong></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体">例如:若a所指数组中的数据依次为:1、2、3、4、5、6、7、8、9,则调换后为:6、7、8、9、5、1、2、3、4。</span></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体"><img src="http://p.ananas.chaoxing.com/star3/origin/71ac37457dabb157b4e9d3f3aa64aa53.PNG" title="1.PNG" alt="1.PNG"></span></p>
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=d183a503c71fd5b67733bacf438e2eb0" target="_blank">blank.c</a></p>
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867628">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) int a[]</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) t=a[i]</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">int&nbsp;a[];int&nbsp;a[N];int&nbsp;a[&nbsp;];</span></strong></dd>
+		    																																																				<dd>(2) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">t=a[i];</span></strong></dd>
+		    																																	</dl>
+																					</div>
+
+																				<div class="analysisDiv">
+											<div class="analysis"><i>答案解析：</i><p><span style="font-size:12px;font-family:宋体">答案解析:本题主要考核</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">C</span><span style="font-size:12px;font-family:宋体">中的函数和数组相关知识。根据题意,第</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">1</span><span style="font-size:12px;font-family:宋体">空</span><span style="font-size:12px;font-family:宋体">填写</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span> <strong><span style="font-size:14px;font-family:&#39;Times New Roman&#39;,serif">int a[]</span></strong> <span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span><span style="font-size:12px;font-family:宋体">;第2空填写</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span> <strong><span style="font-size:14px;font-family:&#39;Times New Roman&#39;,serif">t=a[i]</span></strong> <span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span><span style="font-size:12px;font-family:宋体">;</span></p></div>					
+										</div>
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867629" data="400867629">
+								<h3 class="mark_name colorDeep">2. <span class="colorShallow">(填空题)</span><p><strong><span style=";font-family:宋体"></span></strong></p>
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"></span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);"></span></p>
+<p style="white-space:&nbsp;normal;">注意:<br></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">下载附件中blank.c文件,保存在考生文件夹中。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请在程序的下划线处填入正确的内容并把下划线删除,使程序得出正确的结果。注意:不得增行或删行,也不得更改程序的结构!最终将程序与其它考题一起打包上交。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请将</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">答案写在答案栏中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">(</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">答案栏中只写答案,不要附加其它语句),</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">还必须写在程序中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">,使程序能正确运行。</span></p>
+<p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;">**********************************************************************</span></strong></p>
+<p><strong><span style=";font-family:宋体">给定程序的功能是把a数组中的n个数,和b数组中逆序的n个数一一对应相乘、求平方,结果存在c数组中。</span></strong><br></p>
+<p><span style="font-size:12px;font-family:宋体">例如:当a数组中的值是:1、3、5、7、8,b数组中的值是:2、3、4、5、8&nbsp;&nbsp;调用该函数后,c中存放的数据是:64、225、400、441、256</span></p>
+<p><img src="http://p.ananas.chaoxing.com/star3/origin/d78392bbe455ff71cbea2d1615397992.PNG" title="2.PNG" alt="2.PNG"></p>
+<p><span style="font-size:12px;font-family:宋体"></span></p>
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=4bd60e55bf3641e3e981b813c70f82bc" target="_blank">blank.c</a></p>
+<p><span style="font-size:12px;font-family:宋体"></span><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867629">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) c[i]</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) a,b,c</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">c[i];&nbsp;c[i];</span></strong></dd>
+		    																																																				<dd>(2) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">a,b,c;a,b,c;</span></strong></dd>
+		    																																	</dl>
+																					</div>
+
+																				<div class="analysisDiv">
+											<div class="analysis"><i>答案解析：</i><p><span style="font-size:12px;font-family:宋体">答案解析:本题主要考核</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">C</span><span style="font-size:12px;font-family:宋体">语言中的数组和函数相关知识。根据题意,第</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">1</span><span style="font-size:12px;font-family:宋体">空</span><span style="font-size:12px;font-family:宋体">填写</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span> <strong><span style="font-size:14px;font-family:&#39;Times New Roman&#39;,serif">c[i]</span></strong> <span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span><span style="font-size:12px;font-family:宋体">;第2空填写</span><span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span> <strong><span style="font-size:14px;font-family:&#39;Times New Roman&#39;,serif">a,b,c</span></strong> <span style="font-size:12px;font-family:&#39;Times New Roman&#39;,serif">”</span><span style="font-size:12px;font-family:宋体">;</span></p></div>					
+										</div>
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867630" data="400867630">
+								<h3 class="mark_name colorDeep">3. <span class="colorShallow">(填空题)</span><p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);"></span></p>
+<p style="white-space:&nbsp;normal;">注意:<br></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">下载附件中blank.c文件,保存在考生文件夹中。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请在程序的下划线处填入正确的内容并把下划线删除,使程序得出正确的结果。注意:不得增行或删行,也不得更改程序的结构!最终将程序与其它考题一起打包上交。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请将</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">答案写在答案栏中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">(</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">答案栏中只写答案,不要附加其它语句),</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">还必须写在程序中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">,使程序能正确运行。</span></p>
+<p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;">**********************************************************************</span></strong></p>
+<p><strong><span style=";font-family:宋体">函数fun的功能是:计算n门课程的平均分,计算结果作为函数值返回。</span></strong><br></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体">例如:若有5门课程的成绩是:90.5,&nbsp;72,&nbsp;80,&nbsp;61.5,&nbsp;55,则函数的值为:71.80。</span></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体"><img src="http://p.ananas.chaoxing.com/star3/origin/c580928b40be5e7e22225ee7beb7d614.PNG" title="3.PNG" alt="3.PNG"></span></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体"></span></p>
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=c16fc80868708734ee33e609fea0dfc1" target="_blank">blank.c</a></p>
+<p style="text-indent:&nbsp;23px"><span style="font-size:12px;font-family:宋体"></span><br></p>
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867630">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) sum+=a[i];</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) fun(score,5);</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">sum+=a[i];sum=sum+a[i];</span></strong></dd>
+		    																																																				<dd>(2) <span style="font-size:12px;font-family:&nbsp;宋体">fun(score,5);</span></dd>
+		    																																	</dl>
+																					</div>
+
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867631" data="400867631">
+								<h3 class="mark_name colorDeep">4. <span class="colorShallow">(填空题)</span><p style="line-height:&nbsp;35px;"><span style="color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:;"></span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);"></span></p>
+<p style="white-space:&nbsp;normal;">注意:<br></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">下载附件中blank.c文件,保存在考生文件夹中。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请在程序的下划线处填入正确的内容并把下划线删除,使程序得出正确的结果。注意:不得增行或删行,也不得更改程序的结构!最终将程序与其它考题一起打包上交。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请将</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">答案写在答案栏中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">(</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">答案栏中只写答案,不要附加其它语句),</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">还必须写在程序中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">,使程序能正确运行。</span></p>
+<p style="line-height:&nbsp;35px;">*************************************************************************************************<br></p>
+<p style="margin:&nbsp;1em&nbsp;0px;"><span style="color:&nbsp;windowtext;&nbsp;font-family:&nbsp;仿宋;">给定程序中,函数</span><span style="color:&nbsp;windowtext;&nbsp;font-family:;">fun</span><span style="color:&nbsp;windowtext;&nbsp;font-family:&nbsp;仿宋;">的功能是根据形参</span><span style="color:&nbsp;windowtext;&nbsp;font-family:;">i</span><span style="color:&nbsp;windowtext;&nbsp;font-family:&nbsp;仿宋;">的值返回某个函数的值。当调用正确时,程序输出:</span><span style="color:&nbsp;windowtext;&nbsp;font-family:;">&nbsp;</span><span style="color:&nbsp;windowtext;&nbsp;font-family:;">&nbsp;&nbsp;&nbsp;&nbsp;x1=5.000000,&nbsp;&nbsp;x2=3.000000,&nbsp;&nbsp;x1*x1+x1*x2=40.000000&nbsp;</span></p>
+<p style="margin:&nbsp;1em&nbsp;0px;"><span style="color:&nbsp;windowtext;&nbsp;font-family:;"></span></p>
+<p class="attach"><img src="http://p.ananas.chaoxing.com/star3/origin/3ef6065647370dc3f83182631050b4a0.PNG" title="4.PNG" alt="4.PNG"></p>
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=4a3b17fd5ec20a8225084b51d3b27372" target="_blank" type="c">blank.c</a></p>
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867631">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) double</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) f2</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) <span style="line-height:&nbsp;102%;&nbsp;font-family:;">double</span><br></dd>
+		    																																																				<dd>(2) f2</dd>
+		    																																	</dl>
+																					</div>
+
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867632" data="400867632">
+								<h3 class="mark_name colorDeep">5. <span class="colorShallow">(填空题)</span><p><strong><span style=";font-family:宋体"></span></strong></p>
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"></span></p>
+<p style="white-space:&nbsp;normal;">注意:<br></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">下载附件中blank.c文件,保存在考生文件夹中。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请在程序的下划线处填入正确的内容并把下划线删除,使程序得出正确的结果。注意:不得增行或删行,也不得更改程序的结构!最终将程序与其它考题一起打包上交。</span></p>
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">*</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">请将</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">答案写在答案栏中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">(</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">答案栏中只写答案,不要附加其它语句),</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(192,&nbsp;0,&nbsp;0);">还必须写在程序中</span><span style="font-size:&nbsp;14px;&nbsp;font-family:&nbsp;宋体;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);">,使程序能正确运行。</span></p>
+<p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;">**********************************************************************</span></strong></p>
+<p><strong><span style=";font-family:宋体">给定程序的功能是:将键盘输入的字符串str中的所有</span></strong><strong>’</strong><strong><span style=";font-family:宋体">c</span></strong><strong>’</strong><strong><span style=";font-family:宋体">字符用</span></strong><strong>’</strong><strong><span style=";font-family:宋体">C</span></strong><strong>’</strong><strong><span style=";font-family:宋体">替换.</span></strong><br></p>
+<p><span style="font-size:14px;font-family:宋体">例如:当</span><span style="font-size:&nbsp;14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">str</span><span style="font-size:14px;font-family:宋体">为</span><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">“cdefchij”</span><span style="font-size:14px;font-family:宋体">,输出</span><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">“CdefChij”</span><span style="font-size:14px;font-family:宋体">。</span></p>
+<p><span style="font-size:14px;font-family:宋体"><img src="http://p.ananas.chaoxing.com/star3/origin/d19a140dbba3e95572eb83a1e3f8a6b2.PNG" title="6.PNG" alt="6.PNG"></span></p>
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=c59a173b9289a8c5280c255533af31cb" target="_blank">blank.c</a></p>
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867632">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) gets(str)</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) continue</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">gets(str);scanf("%s",str);</span></strong></dd>
+		    																																																				<dd>(2) <strong><span style="font-size:14px;font-family:'Times&nbsp;New&nbsp;Roman',serif">continue;</span></strong></dd>
+		    																																	</dl>
+																					</div>
+
+																				<div class="analysisDiv">
+											<div class="analysis"><i>答案解析：</i><p style="text-indent: 24px">答案解析:本题主要考核C语言中的字符数组相关知识。根据题意,第1空填写” gets(str) ”;第2空填写” continue ”;</p><p><br/></p></div>					
+										</div>
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867633" data="400867633">
+								<h3 class="mark_name colorDeep">6. <span class="colorShallow">(填空题)</span><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">程序修改</span></span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">:</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-size:&nbsp;16px;&nbsp;font-family:&nbsp;宋体;">请<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">指出</span></span>程序中的错误,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">并改正</span></span>,使它能得出正确的结果。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">注意</span>:</span>1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">请将modi.c文件,下载到自己的考生文件夹中,完成试题要求内容,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">本题不得增行或删行,也不得更改程序的结构!最终将本题程序与其它考题一起打包上交。</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">2<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">指出程序错误行,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">只写数字</span></span>(如:</span>3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">),不得包含其它字符。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、改正为,应将</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;&nbsp;text-decoration-line:&nbsp;underline;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">改正后的表达式整行</span>全都写到答案栏中</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">。(如原错误行为:</span>a=0<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;应该改为:</span>a=1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">)。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">4、<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">改正后的结果不但要写在本题的答题栏中,还应该写在本题的源文件中(.c文件中),并使程序正确编译运行。</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">下载附件中的</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">modi.c</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">文件</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">,</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">完成</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">考题。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></p> 
+<p class="attach" style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding-top:&nbsp;0px;&nbsp;padding-bottom:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;">*************************************************************************************************************</p> 
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=94f2825bbb6ddb2680c0bd9c6df5ae80" target="_blank" type="c">modi.c</a></p> 
+<p>给定程序modi.c中函数fun的功能是:按以下递归公式求函数值。&nbsp;</p> 
+<p><img src="http://p.ananas.chaoxing.com/star3/origin/573768f082996b78ac4e6a7d1647f3d0.PNG" title="11t.PNG" alt="11t.PNG"></p> 
+<p>&nbsp;例如,当给n输入5时,函数值为18;当给n输入3时,函数值为14。<br></p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;请改正程序中的错误,使它能得出正确结果。&nbsp;&nbsp;</p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-size:&nbsp;12px;&nbsp;font-family:&nbsp;宋体;"></span><img src="http://p.ananas.chaoxing.com/star3/origin/d42ce5e93a5d41186431c78b76838dc6.PNG" title="11.PNG" alt="11.PNG"></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><br></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;"></span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第一个错误所在的行号为:______1________,应将其改正为:__________2______________</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第二个错误所在的行号为:______3________,应将其改正为:__________4______________</span></span></p> 
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867633">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) 1</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) int fun(int n)</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(3) 3<br></span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(4) if (n==1)</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) 1</dd>
+		    																																																				<dd>(2) int&nbsp;fun(int&nbsp;n);fun(int&nbsp;n)</dd>
+		    																																																				<dd>(3) 3</dd>
+		    																																																				<dd>(4) if&nbsp;(n==1)</dd>
+		    																																	</dl>
+																					</div>
+
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867634" data="400867634">
+								<h3 class="mark_name colorDeep">7. <span class="colorShallow">(填空题)</span><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">程序修改</span></span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">:</span></span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-size:&nbsp;16px;&nbsp;font-family:&nbsp;宋体;">请<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">指出</span></span>程序中的错误,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">并改正</span></span>,使它能得出正确的结果。</span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">注意</span>:</span>1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">请将modi.c文件,下载到自己的考生文件夹中,完成试题要求内容,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">本题不得增行或删行,也不得更改程序的结构!最终将本题程序与其它考题一起打包上交。</span></span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">2<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">指出程序错误行,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">只写数字</span></span>(如:</span>3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">),不得包含其它字符。</span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、改正为,应将</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;&nbsp;text-decoration-line:&nbsp;underline;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">改正后的表达式整行</span>全都写到答案栏中</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">。(如原错误行为:</span>a=0<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;应该改为:</span>a=1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">)。</span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">4、<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">改正后的结果不但要写在本题的答题栏中,还应该写在本题的源文件中(.c文件中),并使程序正确编译运行。</span></span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">下载附件中的</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">modi.c</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">文件</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">,</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">完成</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">考题。</span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></p><p class="attach" style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding-top:&nbsp;0px;&nbsp;padding-bottom:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;">*************************************************************************************************************</p><p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;"></span></strong></p><p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"/><a href="/ueditorupload/read?objectId=33bfe21c99aab2ac927e1027aa931ecd" target="_blank" type="c">modi.c</a></p><p>已知一个数列的前三项分别为0,0,1, 以后的各项都是其相邻的前三项之和。给定程序modi.c中函数fun的功能是:计算并输出该数列前n项的平方根之和sum。n的值通过形参传入。</p><p>&nbsp; &nbsp;例如,当n=10时,程序的输出结果应为:23.197745。<br/></p><p><img src="http://p.ananas.chaoxing.com/star3/origin/874b30550cfcc0b456c888259727ac94.PNG" title="4.PNG" alt="4.PNG"/></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><br/></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第一个错误所在的行号为:______1________,应将其改正为:__________2______________</span></span></p><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第二个错误所在的行号为:______3________,应将其改正为:__________4______________</span></span></p><p><br/></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867634">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) 2</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) double fun(int n)</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(3) 12</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(4) return sum;</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) 2</dd>
+		    																																																				<dd>(2) double fun(int n);float&nbsp;fun(int n)</dd>
+		    																																																				<dd>(3) 12</dd>
+		    																																																				<dd>(4) return sum;</dd>
+		    																																	</dl>
+																					</div>
+
+										
+									</div>
+
+															</div>
+													
+																					<div class="marBom60 questionLi" id="question400867635" data="400867635">
+								<h3 class="mark_name colorDeep">8. <span class="colorShallow">(填空题)</span><p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">程序修改</span></span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">:</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-size:&nbsp;16px;&nbsp;font-family:&nbsp;宋体;">请<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">指出</span></span>程序中的错误,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">并改正</span></span>,使它能得出正确的结果。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">注意</span>:</span>1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">请将modi.c文件,下载到自己的考生文件夹中,完成试题要求内容,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">本题不得增行或删行,也不得更改程序的结构!最终将本题程序与其它考题一起打包上交。</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">2<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">指出程序错误行,<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">只写数字</span></span>(如:</span>3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">),不得包含其它字符。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;">3<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">、改正为,应将</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;&nbsp;text-decoration-line:&nbsp;underline;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;red;">改正后的表达式整行</span>全都写到答案栏中</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">。(如原错误行为:</span>a=0<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;应该改为:</span>a=1<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">;</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">)。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">4、<span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(255,&nbsp;0,&nbsp;0);&nbsp;text-decoration-line:&nbsp;underline;">改正后的结果不但要写在本题的答题栏中,还应该写在本题的源文件中(.c文件中),并使程序正确编译运行。</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">下载附件中的</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">modi.c</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">文件</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">,</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">完成</span><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;">考题。</span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></p> 
+<p class="attach" style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding-top:&nbsp;0px;&nbsp;padding-bottom:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;">*************************************************************************************************************</p> 
+<p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;"></span></strong></p> 
+<p class="attach"><img src="/js/editor20150812/dialogs/attachment_new/fileTypeImages/icon_default.gif"><a href="/ueditorupload/read?objectId=23e5e117cb16275bed9a97f8655f93c5" target="_blank" type="c">modi.c</a></p> 
+<p style="white-space:&nbsp;normal;"><strong><span style="font-family:&nbsp;宋体;">给定程序modi.c中,</span></strong><strong><span style="font-family:&nbsp;宋体;">函数fun的功能是:统计一个 整数(只讨论正整数)中各位数字值为零的个数,通过函数值返回。</span></strong><br></p> 
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;宋体;">例如,若输入整数</span><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;Times&nbsp;New&nbsp;Roman,&nbsp;serif;">30800</span><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;&nbsp;宋体;">,则数字值为零的个数为</span><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;Times&nbsp;New&nbsp;Roman,&nbsp;serif;">3</span><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;宋体;">。</span></p> 
+<p style="white-space:&nbsp;normal;"><span style="font-size:&nbsp;12px;&nbsp;font-family:&nbsp;宋体;"></span></p> 
+<p class="attach" style="white-space:&nbsp;normal;"><img src="http://p.ananas.chaoxing.com/star3/origin/c97044effe8333eb1e8148391ece990c.PNG" title="3-.PNG" alt="3-.PNG"></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-size:&nbsp;12px;&nbsp;font-family:&nbsp;宋体;"></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><br></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;宋体;"></span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;"></span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第一个错误所在的行号为:______1________,应将其改正为:__________2______________</span></span></p> 
+<p style="margin-top:&nbsp;0px;&nbsp;margin-bottom:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;color:&nbsp;rgb(51,&nbsp;51,&nbsp;51);&nbsp;font-family:&nbsp;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;"><span style="margin:&nbsp;0px;&nbsp;padding:&nbsp;0px;&nbsp;font-family:&nbsp;&nbsp;宋体;">本题中第二个错误所在的行号为:______3________,应将其改正为:__________4______________</span></span></p> 
+<p><br></p></h3>
+																	<div class="mark_answer" style="width:760px;">
+										<div>
+											<dl class="mark_fill colorDeep" id="qb400867635">
+												<dt class="positionStyle">
+													<i class="fontWeight">我的答案：</i>
+																										<div class="mark_score">
+														<div class=" fl catalog_tishi80">
+															<div class="mark_judge_name"></div>
+														</div>
+														<div class="totalScore fr"><i>12.5</i>分</div>
+													</div>
+																									</dt>
+																																																																			
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(1) 6</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(2) if(t==0)</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(3) 8</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																																							
+														<dd>
+															<span class="answer_span" style="display:inline-block;width:94%;">(4) n=n/10;</span>
+																																															                                                                <span class="marking_dui"></span>
+																																																												</dd>
+																																				</dl>
+											
+																						<dl class="mark_fill colorGreen">
+												<dt><i class="fontWeight">正确答案：</i></dt>
+														    																																																				<dd>(1) 6</dd>
+		    																																																				<dd>(2) if(t==0)</dd>
+		    																																																				<dd>(3) 8</dd>
+		    																																																				<dd>(4) n=n/10;n/=10</dd>
+		    																																	</dl>
+																					</div>
+
+										
+									</div>
+
+															</div>
+											</div>
+							</div>
+			</div>
+	
+		<div class="fanyaMarking_right" id="rightHeight">
+		<div class="topicNumber" id="topicNumberScroll">
+												
+																										
+						
+																				
+                        <div class="topicNumber_checkbox colorDeep fs14">
+														一. 填空题（100分）                        </div>
+                        <ul class="topicNumber_list clearfix">
+							                                <li id="answerSheet400867628" data="400867628" class="active" >1</li>
+							                                <li id="answerSheet400867629" data="400867629" class="active" >2</li>
+							                                <li id="answerSheet400867630" data="400867630" class="active" >3</li>
+							                                <li id="answerSheet400867631" data="400867631" class="active" >4</li>
+							                                <li id="answerSheet400867632" data="400867632" class="active" >5</li>
+							                                <li id="answerSheet400867633" data="400867633" class="active" >6</li>
+							                                <li id="answerSheet400867634" data="400867634" class="active" >7</li>
+							                                <li id="answerSheet400867635" data="400867635" class="active" >8</li>
+							                        </ul>
+														</div>
+	</div>
+	</div>
+
+<div class="maskDiv popMoveShowHide" style="display:none;" id="recordList">
+	<div class="popDiv wid640 popMove">
+		<div class="popHead">
+			<a href="javascript:;" onclick="closeAnswers();" class="popClose popMoveDele fr"><img src="/mooc2/images/popClose.png" /></a>
+			<p class="fl fs18 colorDeep">作答记录</p>
+		</div>
+		<div class="het62"></div>
+				<div id="content"></div>
+	</div>			
+</div>
+
+<link rel="stylesheet" type="text/css" href="/mooc2/css/prompt.css"/>
+
+<div class="maskDiv" style="display:none;" id="workpop">
+	<div class="popDiv wid440 Marking">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr" onclick="$('#workpop').hide();$('.popSetupShowHide').fullFadeOut();"><img src="/images/popClose.png" /></a>
+			<p class="fl fs18 colorDeep">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="popcontent"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="popok" class="jb_btn jb_btn_92 fr fs14"></a>
+			<a href="javascript:;" id="popno" class="btnBlue btn_92_cancel fr fs14"></a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+
+<script>
+
+function workPop(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#workpop");
+
+	$(".popSetupShowHide").fullFadeIn();
+	ta.show();
+	
+	$("#popcontent").html(content);
+
+	var ok = $("#popok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		okcallback && okcallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+
+	var cancel = $("#popno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+}
+
+</script><script>
+
+var courseId = $("#courseId").val();
+var classId = $("#classId").val();
+var cpi = $("#cpi").val();
+var workId = $("#workId").val();
+var answerId = $("#answerId").val();
+var enc = $("#enc").val();
+
+function redoWork() {
+	workPop("确认重做？", "重做", "取消", function() {
+		$.ajax({
+			type : "get",
+			url : "/work/phone/redo",
+			dataType : "json",
+			data : {
+				courseId : courseId,
+				classId : classId,
+				cpi : cpi,
+				workId : workId,
+				workAnswerId : answerId
+			},
+			success : function(data) {
+				if(data.status == 1) {
+					location.href = "/mooc2/work/dowork?courseId=99139196&classId=32693492&cpi=151958437&workId=11312524&answerId=50015267&knowledgeId=&jobid=&standardEnc=24b60fcd2e9014f4743c2187f1d42a73&enc=87f2d486d212d90ad2af34ec9bf307de";
+				} else {
+					$.toast({
+						type : 'failure',
+						content : data.msg
+					});
+				}
+			}
+		});
+	});
+}
+
+var recordLock = 0
+function answerList() {
+	if(recordLock == 1) {
+		return;
+	}
+	recordLock = 1;
+	
+	$.ajax({
+		type : "get",
+		url : "/mooc2/work/answer-list",
+		dataType : "html",
+		data : {
+			courseId : courseId,
+			classId : classId,
+			cpi : cpi,
+			workId : workId,
+			answerId : answerId,
+			enc : enc
+		},
+		success : function(data) {
+			$("#content").html(data);
+			$("#recordList").show();
+			MoveFixed();
+		}
+	});
+}
+
+function closeAnswers() {
+	$("#recordList").hide();
+	recordLock = 0;
+}
+
+function showAnswer(selectTimes) {
+	var url = "/mooc2/work/view?courseId=99139196&classId=32693492&cpi=151958437&workId=11312524&answerId=50015267&enc=87f2d486d212d90ad2af34ec9bf307de&selectTimes=" + selectTimes;
+	window.open(url);
+}
+
+function MoveFixed() {
+	$('.popMove').css({
+		top : function() {
+			return ($(window).height() - $(this).height()) / 2;
+		},
+		left : function() {
+			return ($(window).width() - $(this).width()) / 2;
+		}
+	});
+	
+	$("#boxscroll").niceScroll({
+		cursorborder : "",
+		cursorcolor : "#D9DDE1",
+		boxzoom : false
+	});
+}
+
+</script>
+</body>
+</html>
