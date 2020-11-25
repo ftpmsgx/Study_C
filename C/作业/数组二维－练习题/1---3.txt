@@ -1,0 +1,8 @@
+1:
+	4	3	0
+2:
+	7	b[i]=a[i][0];	9	if(b[i]>a[i][j])
+3:
+	for(i=0;i<=2;i++)
+		for(j=0;j<i;j++)
+                    t=array[i][j],array[i][j]=array[j][i],array[j][i]=t;
