@@ -50,7 +50,7 @@ int main()
 	for (i = 20; i < n+20; i++)
 	{
 		scanf("%d",&num);
-		insert(&a,c+=1,i,num);
+		insert(&a,c+=1,i,num);	//要操作的数组,长度,插入的位置,要插入的数
 	}
 	Sort(&a,20+n);
 	output(&a,19+n);
