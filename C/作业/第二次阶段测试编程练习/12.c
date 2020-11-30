@@ -3,7 +3,7 @@
 
 double prime(int num)
 {
-	int i,status=0;
+	int i,status=1;
 	for(i=2;i<=(int)sqrt(num);i++)
 	{
 		if(num%i)
