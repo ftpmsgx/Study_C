@@ -3,7 +3,7 @@
 
 int prime(int num)
 {
-	int i,status=0,c=2,j;
+	int i,status=1,c=2,j;
 	for(j=4;j<=num;j++)
 	{
 		for(i=2;i<=(int)sqrt(j);i++)
