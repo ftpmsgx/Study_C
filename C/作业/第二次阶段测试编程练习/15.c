@@ -4,7 +4,7 @@
 double fun(int  n)
 {
 	double s = 0;
-	int i, j, status = 0;
+	int i, j, status = 1;
 	for (i = 3; i <= n; i++)
 	{
 		for (j = 2; j <= (int)sqrt(i); j++)
