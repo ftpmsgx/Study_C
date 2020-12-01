@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double prime(int num)
+void prime(int num)
 {
 	int i,status=1;
 	for(i=2;i<=(int)sqrt(num);i++)
