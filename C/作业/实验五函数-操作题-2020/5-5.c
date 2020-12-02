@@ -46,6 +46,11 @@ int main()
 	input(&a);
 	printf("Enter the number of numbers to insert:");
 	scanf("%d", &n);
+	if(20 + n > 200)
+	{
+		printf("Greater than table length\n");
+		return 0;
+	}
 	printf("Please input numbers:");
 	for (i = 20; i < n+20; i++)
 	{
