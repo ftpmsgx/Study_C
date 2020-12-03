@@ -1,0 +1,754 @@
+作业详情
+函数部分选择题（作业）-提交后自动判分-2019(副本)
+题量: 26 满分: 100
+作答时间:11-20 10:09至12-04 23:00
+
+重做
+最终成绩100分
+
+作答记录 本次成绩100分
+一. 单选题（共26题，100分）
+1. (单选题)下面的函数调用语句中func函数的实参个数是______。
+func(f2(v1,v2),(v3,v4,v5),(v6,max(v7,v8)));
+
+A.
+3
+
+B.
+4
+
+C.
+5
+
+D.
+8
+
+我的答案: A 正确答案: A
+3.8分
+2. (单选题)以下叙述中错误的是______。
+A.
+用户定义的函数中可以没有return语句
+
+B.
+用户定义的函数中可以有多个return语句,以便可以调用一次返回多个函数值
+
+C.
+用户定义的函数中若没有return语句,则应当定义函数为void类型
+
+D.
+函数的return语句中可以没有表达式
+
+我的答案: B 正确答案: B
+3.8分
+3. (单选题)以下所列的各函数声明中,正确的是______。
+A.
+void play(var a:Integer,var b:Integer)
+
+B.
+void play(int a,int b);
+
+C.
+Sub play(a as integer,b as integer)
+
+D.
+void play(int a,b);
+
+我的答案: B 正确答案: B
+3.8分
+4. (单选题)
+有以下程序
+
+void  fun2 (char a, char b)  {printf ("%c %c", a,b);}
+
+char  a='A',b='B';
+
+void  fun1(){  a='C' ;  b='D';  }
+
+main()
+
+{  fun1();
+
+      printf("%c %c ",a,b);
+
+      fun2 ('E', 'F');}
+
+程序的运行结果是______。
+
+
+
+A.
+C D E F
+
+B.
+A B E F
+
+C.
+A B C D
+
+D.
+C D A B
+
+我的答案: A 正确答案: A
+3.8分
+5. (单选题)
+有以下程序
+
+int fun1(double a){return a*=a;}
+
+int fun2(double x,double y)
+
+{ double a=0,b=0;
+
+  a=fun1(x);b=fun1(y); return(int)(a+b);}
+
+main()
+
+{double w;w=fun2(1.1,2.0);……}
+
+程序执行后变量w中的值是______。
+
+
+
+A.
+5.21
+
+B.
+5
+
+C.
+5.0
+
+D.
+0.0
+
+我的答案: C 正确答案: C
+3.8分
+6. (单选题)以下叙述中错误的是______。
+A.
+C程序必须由一个或一个以上的函数组成
+
+B.
+函数调用可以作为一个独立的语句存在
+
+C.
+若函数有返回值,必须通过return语句返回
+
+D.
+函数形参的值也可以传回给对应的实参
+
+我的答案: D 正确答案: D
+3.8分
+7. (单选题)
+有以下程序
+
+int fun(int n)
+
+{ if(n==1) return 1;
+
+  else
+
+  return(n+fun(n-1));}
+
+main()
+
+{ int x;
+
+  scanf("%d",&x));x=fun(x);printf("%d\n",x);}
+
+执行程序时,给变量x输入10,程序的输出结果是______。
+
+
+
+A.
+55
+
+B.
+54
+
+C.
+65
+
+D.
+45
+
+我的答案: A 正确答案: A
+3.8分
+8. (单选题)若各选项中所有变量已正确定义,函数fun中通过return语句返回一个函数值,以下选项中错误的程序是______。
+A.
+main()                        
+
+{…… x=fun(2,10); ……}        
+
+float fun(int  a,int  b){ ……}  
+
+
+
+B.
+float fun(int a,int b){……}
+
+ main()
+
+{……  x=fun(i,j);  ……}
+
+
+
+C.
+float fun(int int);          
+
+main()                         
+
+{…… x=fun(2,10); ……}       
+
+float fun(int  a,int  b){ ……} 
+
+
+
+D.
+main()
+
+{ float fun(int i, int j);
+
+ …… x=fun(i,j);  ……}
+
+ float fun(int  a,int  b){ ……}
+
+
+
+我的答案: A 正确答案: A
+3.8分
+9. (单选题)有以下程序
+int  a=2;
+
+int f(int  n)
+
+{static int  a=3;
+
+int  t=0;
+
+if(n%2){ static int  a=4;  t+=a++;  }
+
+else   { static int  a=5;  t+=a++;  }
+
+return  t+a++;} 
+
+main()
+
+{int  s=a,i;
+
+for(i=0;i<3;i++)  s+=f(i); 
+
+printf("%d\n",s); 
+
+}
+
+程序运行后的输出结果是______。
+
+
+
+A.
+26
+
+B.
+28
+
+C.
+29
+
+D.
+24
+
+我的答案: C 正确答案: C
+3.8分
+10. (单选题)
+设函数fun的定义形式为
+
+void  fun(char  ch,float  x)  { …… }
+
+则以下对函数fun的调用语句中,正确的是______。
+
+
+
+A.
+fun("abc",3.0);
+
+B.
+t=fun('D',16.5);
+
+C.
+fun('65',2.8);
+
+D.
+fun(32,32);
+
+我的答案: D 正确答案: D
+3.8分
+11. (单选题)int f1(int x,int y){return x>y?x:y;} 
+int f2(int x,int y){return x>y?y:x;} 
+
+main() 
+
+{ int a=4,b=3,c=5,d=2,e,f,g; 
+
+  e=f2(f1(a,b),f1(c,d)); 
+
+  f=f1(f2(a,b),f2(c,d)); 
+
+  g=a+b+c+d-e-f; 
+
+  printf("%d,%d,%d\n",e,f,g); } 
+
+程序运行后的输出结果是______。
+
+
+
+A.
+4,3,7
+
+B.
+3,4,7
+
+C.
+5,2,7
+
+D.
+2,5,7
+
+我的答案: A 正确答案: A
+3.8分
+12. (单选题)在函数调用过程中,如果函数funA调用了函数 funB,函数funB又调用了函数funA,则______。
+A.
+称为函数的直接递归调用
+
+B.
+称为函数的间接递归调用
+
+C.
+称为函数的循环调用
+
+D.
+C语言中不允许这样的递归调用
+
+我的答案: B 正确答案: B
+3.8分
+13. (单选题)有以下程序:
+float fun(int x,int y)
+
+  {return(x+y); }
+
+main()
+
+  {int a=2,b=5,c=8;
+
+   printf("%3.0f\n",fun((int)fun(a+c,b),a+c));
+
+  }
+
+
+
+A.
+编译出错
+
+B.
+25
+
+C.
+9
+
+D.
+9.0
+
+我的答案: B 正确答案: B
+3.8分
+14. (单选题)
+有以下程序
+
+void f(int v, int w)
+
+{ int t;
+
+  t=v; v=w; w=t;}
+
+main()
+
+{ int x=1,y=2, z=3 ;
+
+  if(x>y)            f(x,y);
+
+  else if(y>z)       f(y,z); 
+
+  else               f(x,z);
+
+  printf(“%d,%d,%d\n”,x,y,z);}
+
+执行后输出结果______。
+
+
+
+A.
+1,2,3 
+
+B.
+3,1,2
+
+C.
+1,3,2
+
+D.
+2,3,1
+
+我的答案: A 正确答案: A
+3.8分
+15. (单选题)
+若程序中定义了以下函数:
+
+double myadd(double a,double b)
+
+{return(a+b);}
+
+并将其放在调用语句之后,则在调用之前应该对函数进行说明,以下选项中错误的说明是______。
+
+
+
+A.
+double myadd(double x, double y);
+
+B.
+double myadd(double,double);
+
+C.
+double myadd(double a, b);
+
+D.
+double myadd(double b, double a);
+
+我的答案: C 正确答案: C
+3.8分
+16. (单选题)
+下面程序的输出是______。
+
+int  m=13;
+
+int fun2(int x,int y)
+
+{  int m=3;
+
+    return(x*y-m); }
+
+ main()
+
+ { int a=7,b=6;
+
+printf("%d\n",fun2(a,b)/m);}
+
+
+
+A.
+1
+
+B.
+2
+
+C.
+3
+
+D.
+7
+
+我的答案: C 正确答案: C
+3.8分
+17. (单选题)
+以下程序的输出结果是______。
+
+main()
+
+{   int  w=5;  fun(w);  printf(“\n”); }
+
+fun(int  k)
+
+{  if(k>0)  fun(k-1);
+
+   printf("%d",k);}
+
+
+
+A.
+5  4  3  2  1  0
+
+B.
+0  1  2  3  4  5
+
+C.
+5  4  3  2  1
+
+D.
+1  2  3  4  5
+
+我的答案: B 正确答案: B
+3.8分
+18. (单选题)
+有以下程序
+
+fun(int a, int b)
+
+{ if(a>b) return(a);
+
+  else    return(b);}
+
+main()
+
+{ int x=3,y=8,z=6,r;
+
+  r=fun(fun(x,y),2*z);
+
+  printf("%d\n",r);}
+
+程序运行后的输出结果是______。
+
+
+
+A.
+12
+
+B.
+8
+
+C.
+6
+
+D.
+3
+
+我的答案: A 正确答案: A
+3.8分
+19. (单选题)下列函数定义中,会出现编译错误的是______。
+A.
+max(int x,int y,int *z)
+
+{*z=x>y ? x:y;}         
+
+
+
+B.
+int max(int x,y)
+
+{  int z;
+
+z=x>y ? x:y;
+
+return z;}
+
+
+
+C.
+max(int x,int y)          
+
+{ int z;
+
+  z=x>y?x:y; return(z);}  
+
+
+
+D.
+int max(int x,int y)
+
+ 
+
+{ return(x>y?x:y); }
+
+
+
+我的答案: B 正确答案: B
+3.8分
+20. (单选题)若函数调用时的实参为变量时,以下关于函数形参和实参的叙述中正确的是______。
+A.
+函数的实参和其对应的形参共占同一存储单元
+
+B.
+函数的形参和实参分别占用不同的存储单元
+
+C.
+形参只是形式上的存在,不占用具体存储单元
+
+D.
+同名的实参和形参占同一存储单元
+
+我的答案: B 正确答案: B
+3.8分
+21. (单选题)
+有以下程序
+
+  
+
+fun (int  x,int  y)
+
+  
+
+{ static int m=0,i=2;
+
+  
+
+  i+=m+1;  m=i+x+y;  return m;}
+
+  
+
+main()
+
+  
+
+{  int j=1,m=0,k;
+
+  
+
+   k=fun(j,m);  printf("%d,",k);
+
+  
+
+   k=fun(j,m);  printf("%d\n",k);}
+
+  
+
+执行后的输出结果是______。
+
+  
+
+
+
+A. 4,9
+B. 5,11
+C. 6,13
+D. 11,5
+我的答案: A 正确答案: A
+3.8分
+答案解析：
+22. (单选题)
+有以下程序
+
+  
+
+fun(int  x)
+
+  
+
+{ int  p;
+
+  
+
+  if(x==0||x==1)  return 5;
+
+  
+
+  p=x-fun(x-2);
+
+  
+
+  return  p;}
+
+  
+
+main()
+
+  
+
+{  printf("%d\n",fun(7));}
+
+  
+
+执行后的输出结果是______。
+
+  
+
+
+
+A. 7
+B. 3
+C. 2
+D. 0
+我的答案: D 正确答案: D
+3.8分
+答案解析：
+23. (单选题)
+以下程序的结果是______。
+
+int  a,b;
+void fun()
+{a=100; b=200;  }
+main()
+{  int  a=7,b=5;
+   fun();
+   printf("%d%d\n",a,b);}
+
+
+
+A.
+100200
+
+B.
+57
+
+C.
+200100
+
+D.
+75
+
+我的答案: D 正确答案: D
+3.8分
+24. (单选题)在调用函数时,如果实参是简单变量,它与对应形参之间的数据传递方式是______。
+A.
+地址传递
+
+B.
+单向值传递
+
+C.
+由实参传给形,再由形参传回实参
+
+D.
+传递方式由用户指定
+
+我的答案: B 正确答案: B
+3.8分
+25. (单选题)
+以下函数值的类型是______。
+
+fun(float x)
+
+{  float y;
+
+   y=3*x-4;
+
+   return y;
+
+   }
+
+
+
+A.
+int
+
+B.
+不确定
+
+C.
+void
+
+D.
+float
+
+我的答案: A 正确答案: A
+3.8分
+26. (单选题)下列叙述不正确的是______。
+A.
+在不同的函数内可使用相同名字的变量
+
+B.
+函数中的形式参数是局部变量
+
+C.
+函数内复合语句中定义的变量在函数内都有效
+
+D.
+函数内的变量只在函数内有效
+
+我的答案: C 正确答案: C
+5分
