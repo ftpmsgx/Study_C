@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-struct stu_inf {
+typedef struct stu_inf {
 	char id[11];
 	char name[9];
 	char college[64];
 	char c[6];
 	int age;
-}stu,*point;
+}stu;
 
 int main() {
-	point=&stu;
+	stu inf;
 	printf("Enter Student ID:");
-	gets(stu.id);
+	gets_s(inf.id);
 	printf("Enter Name:");
-	gets(stu.name);
+	gets_s(inf.name);
 	printf("Enter Your College:");
-	gets(stu.college);
+	gets_s(inf.college);
 	printf("Enter Your Class:");
-	gets(stu.c);
+	gets_s(inf.c);
 	printf("Enter Your Age:");
-	scanf("%d",&(point->age));
-	printf("\n\nID:%s\nName:%s\nCollege:%s\nClass:%s\nAge:%d\n",point->id,point->name,point->college,point->c,point->age);
+	scanf("%d", &(inf.age));
+	printf("\n\nID:%s\nName:%s\nCollege:%s\nClass:%s\nAge:%d\n", inf.id, inf.name, inf.college, inf.c, inf.age);
 }
